@@ -14,7 +14,7 @@ void MakeMove(BOARD *board, vector<int> Move)
 	board->HisPly++;
 	board->Ply++;
 
-	//now move a pieces from square to square...
+	//now move a pieces from square to square
 	for (int i = 0; i + 1<Move.size(); i++)
 	{
 		int From = Move[i];

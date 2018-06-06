@@ -50,7 +50,7 @@ static int AlphaBeta(int Alpha, int Beta, int Depth, BOARD *board)
 	return Alpha;
 }
 
-//function that return the best possible move..or an empty vector if no move is possible
+//function that return the best possible move or an empty vector if no move is possible
 vector<int> SearchPos(BOARD *board, int MAXDEPTH)
 {
 	board->Ply = 0;
